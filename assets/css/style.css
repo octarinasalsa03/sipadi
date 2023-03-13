@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+a {
+	font-family: "Montserrat", sans-serif;
+}
+
+/* body {
+	background-color: #faff4b;
+} */
+
+#body-row {
+	padding-top: 75px !important;
+}
+
+.jumbotron {
+	background-color: rgb(255, 255, 255) !important;
+	padding-top: 15rem;
+}
+
+nav {
+	/* background-color: rgba(249, 255, 105, 1) !important; */
+	background-color: white !important;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+main {
+	display: flex;
+	flex-wrap: nowrap;
+	height: 100vh;
+	height: -webkit-fill-available;
+	max-height: 100vh;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.sidebar-expanded {
+	width: 230px;
+}
+
+#sidebar {
+	/* padding: 1rem; */
+	/* margin: 0; */
+	width: 250px;
+	/* /* height: 100%; */
+	min-height: 100vh;
+	padding: 0;
+	/* position: fixed !important;
+	overflow: auto;
+	overflow-x: hidden;
+	top: 4em !important;
+	z-index: 1; Stay on top */
+	/* background-color: rgba(249, 255, 105, 1) !important; */
+}
+
+.sidebar a {
+	color: black;
+}
+
+.sidebar a:hover {
+	color: white;
+}
+
+.sidebar li:hover {
+	background-color: #ffd23c;
+	/* color: white; */
+}
+
+#submitted-info {
+	padding-top: 5rem;
+}
+
+.btn-see-more {
+	margin-top: 20px;
+	background-color: rgb(255, 255, 255) !important;
+}
+
+.background {
+	margin: auto;
+}
+
+#login-card {
+	border-radius: 40px;
+	position: relative;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.contents {
+    padding-top:74px !important;
+}
+
+.btn {
+	background-color: rgb(240, 168, 12);
+	border-color: rgb(240, 168, 12);
+}
+
+.a-link {
+	color: rgb(240, 168, 12);
+}
+
+/* .btn:hover {
+	background-color: rgb(255, 214, 66) !important;
+	border-color: rgb(255, 243, 80);
+} */
+
+.btn-general:hover {
+	background-color: rgb(255, 214, 66) !important;
+	border-color: rgb(255, 243, 80);
+}
+
+.btn-general {
+	background-color: rgb(240, 168, 12) !important;
+}
+
+.a-link:hover {
+	color: rgb(255, 211, 16);
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+	.nav-link:hover {
+		content: "";
+		display: block;
+	}
+
+	.jumbotron {
+		margin-top: -60px;
+	}
+}
+
+* {
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	color: black;
+}
+
+nav {
+	background-color: #306348;
+	font-size: larger;
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: black !important;
+}
+
+.navbar-nav:hover .nav-item:hover .nav-link:hover {
+	color: #fddf00 !important;
+}
+
+.navbar-nav > a:hover {
+	color: #fddf00;
+}
+
+#register-form .form-control {
+	width: 75%;c
+	margin: auto;
+}
+
+button {
+	background-color: rgb(240, 168, 12);
+	color: white !important;
+	border-radius: 15px !important;
+	outline: none !important;
+	border: 0;
+}
+
+.btn:active,
+.btn:focus,
+.btn:focus:active {
+	background-image: none;
+	outline: 0;
+	box-shadow: none;
+}
+
+a {
+	color: #306348;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1e805a;
+}
+
+#nav-ava {
+	width: 50px;
+}
+
+nav img {
+	width: 50px !important;
+}
+
+#containt {
+	background-color: #306348 !important;
+}
+
+#dokumen-container {
+	background-color: white;
+	border: 10px;
+	border-color: black;
+}
+
+.card h2 {
+	font-weight: bold;
+}
+
+#line {
+	size: 3;
+	width: 90%;
+}
+
+.redStar {
+	color: red;
+}
+.blackText {
+	color: black;
+}
+
+#link-kanan {
+	text-align: end !important;
+}
+
+h2 {
+	letter-spacing: 2px;
+}
+
+#body-login {
+	background-color: #306348;
+}
+
+#body-login img {
+	width: 20rem;
+}
+
+#body-login h1 {
+	color: white;
+	letter-spacing: 2px;
+}
+
+#body-login h4 {
+	letter-spacing: 3px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card-square {
+	background: linear-gradient(
+		180deg,
+		rgba(255, 0, 0, 0.52) 0%,
+		rgba(255, 166, 166, 0.78) 100%
+	);
+	border-radius: 10px;
+	color: white;
+	width: 85%;
+}
+
+#link-btn {
+	color: white !important;
+}
+
+.small-text {
+	margin-left: -35px;
+}
+
+h3 {
+	margin-top: 10rem !important;
+}
+
+#login-card {
+	margin-top: 10rem !important;
+	border-color: #306348;
+	border-radius: 23px;
+}
+
+#main-content {
+	/* margin-left: 250px; */
+	margin-left: 20px;
+	margin-right: 60px;
+	padding: 1px 16px;
+}
+
+.row-info {
+	margin-left: 100px !important;
+	margin-right: 70px !important;
+}
+
+.card-kelas {
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+	/* margin-top: 30px !important; */
+}
+
+#PJModal p {
+	margin-bottom: 0rem !important;
+	margin-top: 0rem !important;
+}
+
+.homesidebar {
+	padding: 1rem;
+	margin: 0;
+	width: 300px;
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+	background-color: yellowgreen;
+}
+
+#mainhome {
+	margin-left: 300px; /* Same as the width of the sidebar */
+	padding: 0px 10px;
+}
+
+.homesidebar a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+}
+
+.content-wrapper {
+	background-color: #f4f4f5;
+	overflow: hidden;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+}
+
+.square {
+	height: 25px;
+	width: 25px;
+	display: inline-block;
+}
+
+#card-home {
+	height: 20rem !important;
+}
